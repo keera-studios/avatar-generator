@@ -11,7 +11,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Ivan Perez
 maintainer:          ivan.perez@keera.co.uk
--- copyright:           
+copyright:           Keera Studios Ltd
 category:            Graphics
 build-type:          Simple
 -- extra-source-files:  
