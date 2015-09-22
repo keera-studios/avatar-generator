@@ -15,5 +15,5 @@ Usage:
 $ cabal sandbox init
 $ cabal update
 $ cabal install avatar-generator
-$ avatar-generator avatar.png
+$ cabal exec avatar-generator avatar.png
 ```
