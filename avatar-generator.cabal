@@ -2,8 +2,8 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                avatar-generator
-version:             0.1.0.0
-synopsis:            A simple 5x5 random avatar icon generator
+version:             0.1.0.1
+synopsis:            A simple random avatar icon generator
 description:         A straightforward avatar image generator that produces 512x512
                      random images.
 homepage:            http://github.com/keera-studios/avatar-generator
@@ -31,4 +31,4 @@ source-repository head
 source-repository this
   type:     git
   location: https://github.com/keera-studios/avatar-generator
-  tag:      v0.1.0.0
+  tag:      v0.1.0.1
