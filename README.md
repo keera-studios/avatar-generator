@@ -1,8 +1,11 @@
 This program generates 512x512 images containing horizontally mirrored
 icons like the one below.
 
-It is used internally by Keera Studios to generator random images for
-demo applications. If you find it useful, star it. If you want to improve it,
-feel free to fork it and/or send a pull request.
+It is used internally by Keera Studios to generate random images for mobile
+Haskell demo applications.
+
+If you like it, star it. As it is used in a very specific environment and it
+serves its purpose, there are no plans to improve it. However, if you want,
+feel free to fork it and send pull requests.
 
 ![Avatar](http://ivanperez-keera.github.com/images/screenshots/avatar.png)
