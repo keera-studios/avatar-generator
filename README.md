@@ -9,3 +9,11 @@ serves its purpose, there are no plans to improve it. However, if you want,
 feel free to fork it and send pull requests.
 
 ![Avatar](http://ivanperez-keera.github.com/images/screenshots/avatar.png)
+
+Usage:
+```
+$ cabal sandbox init
+$ cabal update
+$ cabal install avatar-generator
+$ avatar-generator avatar.png
+```
