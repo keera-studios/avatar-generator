@@ -16,5 +16,5 @@ main = do
                   (r:g:b:_) = randomRs (0, 255) gen
               avatarGenerator list (r,g,b) f
 
-    _   -> do hPutStrLn stderr "usage: generate-avatar <output>"
+    _   -> do hPutStrLn stderr "usage: avatar-generator <output>"
               exitWith (ExitFailure 1)
