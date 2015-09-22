@@ -1,4 +1,4 @@
-This program generates 512x512 images containing horizontally mirrored
+This program generates 512x512 px images containing horizontally mirrored
 icons like the one below.
 
 It is used internally by Keera Studios to generate random images for mobile
