@@ -1,5 +1,15 @@
+# Avatar Generator
+
 This program generates 512x512 px images containing horizontally mirrored
-icons like the one below.
+icons like this:
+
+<img
+    src="./docs/avatar.png"
+    title="Avatar"
+    alt="Avatar"
+    width="256px"
+    height="256px"
+/>
 
 It is used internally by Keera Studios to generate random images for mobile
 Haskell demo applications.
