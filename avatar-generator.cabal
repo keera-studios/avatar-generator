@@ -1,16 +1,16 @@
-cabal-version:       >= 1.10
-build-type:          Simple
+cabal-version: >= 1.10
+build-type:    Simple
 
-name:                avatar-generator
-version:             0.1.0.1
-author:              Ivan Perez
-maintainer:          ivan.perez@keera.co.uk
-homepage:            http://github.com/keera-studios/avatar-generator
-license:             BSD3
-license-file:        LICENSE
-copyright:           Keera Studios Ltd
-category:            Graphics
-synopsis:            A simple random avatar icon generator
+name:          avatar-generator
+version:       0.1.0.1
+author:        Ivan Perez
+maintainer:    ivan.perez@keera.co.uk
+homepage:      http://github.com/keera-studios/avatar-generator
+license:       BSD3
+license-file:  LICENSE
+copyright:     Keera Studios Ltd
+category:      Graphics
+synopsis:      A simple random avatar icon generator
 description:
   A straightforward avatar image generator that produces 512x512 random images.
 
@@ -28,12 +28,12 @@ source-repository this
 -- You can disable the hlint test suite with -f-test-hlint
 flag test-hlint
   default: False
-  manual: True
+  manual:  True
 
 -- You can disable the haddock coverage test suite with -f-test-doc-coverage
 flag test-doc-coverage
   default: False
-  manual: True
+  manual:  True
 
 
 executable avatar-generator
@@ -46,8 +46,8 @@ executable avatar-generator
     ImageManipulation
 
   build-depends:
-      base >= 4.6 && < 5
-    , random >= 1.1 && < 1.2
+      base        >= 4.6 && < 5
+    , random      >= 1.1 && < 1.2
     , JuicyPixels >= 3.2 && < 3.4
 
   default-language:
@@ -95,7 +95,7 @@ test-suite haddock-coverage
       False
   else
     build-depends:
-        base >= 4 && < 5
+        base        >= 4 && < 5
       , directory
       , filepath
       , process
