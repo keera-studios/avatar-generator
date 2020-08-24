@@ -17,15 +17,6 @@ description:         A straightforward avatar image generator that produces 512x
                      random images.
 -- extra-source-files:
 
-executable avatar-generator
-  main-is:             Main.hs
-  other-modules:       AvatarGenerator ImageManipulation
-  build-depends:       base >= 4.6 && < 5
-                     , random >= 1.1 && < 1.2
-                     , JuicyPixels >= 3.2 && < 3.4
-  hs-source-dirs:      src
-  default-language:    Haskell2010
-
 source-repository head
   type:     git
   location: https://github.com/keera-studios/avatar-generator
@@ -45,6 +36,15 @@ flag test-doc-coverage
   default: False
   manual: True
 
+executable avatar-generator
+  main-is:             Main.hs
+  other-modules:       AvatarGenerator ImageManipulation
+  build-depends:       base >= 4.6 && < 5
+                     , random >= 1.1 && < 1.2
+                     , JuicyPixels >= 3.2 && < 3.4
+  default-language:    Haskell2010
+  hs-source-dirs:      src
+
 test-suite hlint
   type: exitcode-stdio-1.0
   main-is: hlint.hs
@@ -60,8 +60,8 @@ test-suite hlint
 test-suite haddock-coverage
   type: exitcode-stdio-1.0
   main-is: HaddockCoverage.hs
-  ghc-options: -Wall
   hs-source-dirs: tests
+  ghc-options: -Wall
 
   if !flag(test-doc-coverage)
     buildable: False
