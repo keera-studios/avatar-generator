@@ -45,7 +45,8 @@ executable avatar-generator
     Main.hs
 
   other-modules:
-    AvatarGenerator ImageManipulation
+    AvatarGenerator
+    ImageManipulation
 
   build-depends:
       base >= 4.6 && < 5
